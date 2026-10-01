@@ -63,13 +63,15 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
             Spacer(
                 modifier = Modifier.height(35.dp)
             )
-
             // Logo UMY
             Image(
                 painter = logo,
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(120.dp),
                 contentScale = ContentScale.Fit
+            )
+            Spacer(
+                modifier = Modifier.height(45.dp)
             )
 
 
