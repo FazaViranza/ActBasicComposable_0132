@@ -60,6 +60,9 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontSize = 12.sp,
                 color = Color.White
             )
+            Spacer(
+                modifier = Modifier.height(35.dp)
+            )
         }
     }
 }
