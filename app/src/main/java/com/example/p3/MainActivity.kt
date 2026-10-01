@@ -65,7 +65,7 @@ fun GreetingPreview() {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
-    val gambar = painterResource(id = R.drawable.notasibalok)
+    val gambar = painterResource(id = R.drawable.building)
     Column {
         Box(
             modifier = modifier
