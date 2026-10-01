@@ -13,17 +13,15 @@ import com.example.p3.ui.theme.TataletakBoxColumnRow
 
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         enableEdgeToEdge()
+
         setContent {
             P3Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                HalamanLogin()
             }
         }
     }
