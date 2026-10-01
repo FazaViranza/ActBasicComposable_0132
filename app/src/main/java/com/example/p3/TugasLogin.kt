@@ -80,6 +80,13 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            // Nama
+            Text(
+                text = "Nofila Faza Viranza",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
         }
     }
 }
