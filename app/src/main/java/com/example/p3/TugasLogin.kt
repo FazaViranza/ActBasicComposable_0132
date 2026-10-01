@@ -94,6 +94,9 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+            Spacer(
+                modifier = Modifier.height(10.dp)
+            )
         }
     }
 }
